@@ -158,7 +158,7 @@
         </div>
 
         <div class="form-group">
-          <label for="gameTitle">Ti­tulo do Jogo que deseja:</label>
+          <label for="gameTitle">Título do Jogo que deseja:</label>
           <input
             type="text"
             id="gameTitle"
@@ -226,9 +226,10 @@
           const server = document.getElementById("server").value;
           const discordNick = document.getElementById("discordNick").value;
           const gameTitle = document.getElementById("gameTitle").value;
-          const encodedUrl =
-            "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM2NjkxMDI2NTQzMzY1NzQyNC8zZU9LY1ZTMTF6MW1hUmxjTjM2TVJlQ3NrbjF4ZE1tQlZnWDBBN2kxVkV5aHV1ZF9ka0RPOExPdGh6bmVMc3l1clYwNA==";
-          fetch(atob(encodedUrl), {
+
+          const webhookUrl = "https://discord.com/api/webhooks/1368066763329376316/jnRqrcwCfVa3FYqfiPUvrzA9zCB5WgvLIITHh-dJ87DAhb9bYQNxwc8Il1VC8laNu4q0";
+
+          fetch(webhookUrl, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
