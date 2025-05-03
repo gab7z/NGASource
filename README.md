@@ -1,0 +1,1 @@
+Welcome to my Hydra Source, i make this source using only megathread r/piracy as my main source. I don't make this for fame or money just to help the Hydra Launcher Community to have games and have fun. I accept requests for the source so if you have a game that you want to play but it's not on my source you are free to ask me to add it and i will do it as fast as i can.
